@@ -5,10 +5,18 @@ function setup() {
 }
 
 function draw () {
-    rect (100, 100, 50, 50);
-    stroke (144, 0,0);
-    fill (133,33,33)
+    if (mouseIsPressed) {
+            pixelDensity(5);
+            ellipse (100, 100, 50, 50);
+            stroke (144, 0,0);
+            fill (188,11,11);
+            
+    }
+    
+        }
+    
+   
     
 
-}
+
 
