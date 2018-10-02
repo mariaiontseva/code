@@ -7,7 +7,68 @@
     font-family: 'Montserrat';
     font-weight: 300;
     font-stretch: semi-expanded;
+    color: rgba(255, 255, 255);
     }
+
+#subtitle {
+    opacity: 0.5;
+}
+
+    body {
+        margin:0px;
+        text-align:center;
+      }
+      
+      #container {
+        color: white;
+        text-transform: uppercase;
+        font-size:26px;
+        line-height: 150%;
+        padding-top:200px;  
+        width:100%;
+        bottom:45%;
+        display:block;
+        padding-bottom: 20px;
+      }
+      
+      #flip {
+        height:50px;
+        overflow:hidden;
+      }
+      
+      #flip > div > div {
+        color:#fff;
+        padding:4px 12px;
+        height:45px;
+        margin-bottom:45px;
+        display:inline-block;
+      }
+      
+      #flip div:first-child {
+        animation: show 5s linear infinite;
+      }
+      
+      #flip div div {
+        background:#42c58a;
+      }
+      #flip div:first-child div {
+        background:#4ec7f3;
+      }
+      #flip div:last-child div {
+        background:#DC143C;
+      }
+      
+      @keyframes show {
+        0% {margin-top:-270px;}
+        5% {margin-top:-180px;}
+        33% {margin-top:-180px;}
+        38% {margin-top:-90px;}
+        66% {margin-top:-90px;}
+        71% {margin-top:0px;}
+        99.99% {margin-top:0px;}
+        100% {margin-top:-270px;}
+      }
+      
 
     .button {
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -15,7 +76,7 @@
 }
 .header {
     background: #000000;
-    height: 800px;
+    height: 500px;
     
 }
 
@@ -43,7 +104,7 @@
    text-align: center;
    font-weight: 200;
    background: #000000;
-   padding-top: 300px;
+   padding-top: 30px;
    display: block;
    padding-left: 30px;
    padding-right: 30px;
