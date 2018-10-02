@@ -9,8 +9,8 @@
     font-stretch: semi-expanded;
     }
 
-.button {
-    -webkit-transition-duration: 1.4s; /* Safari */
+    .button {
+    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 .header {
