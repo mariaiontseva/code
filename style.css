@@ -70,9 +70,9 @@
       }
       
 
-    .button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+.button {
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
 }
 .header {
     background: #000000;
@@ -149,7 +149,7 @@
     border: 2px solid #80AD3C;
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     padding: 14px;
     padding-left: 50px;
     padding-right: 50px;
